@@ -1,0 +1,37 @@
+# output file record 
+# name of the output file 
+output001.out
+# output file description
+# description <string> printed in the output file 
+attempt to run first code
+# analysis record 
+# the keywords are limited
+# tell the system about the type of analysis we want to perform , kind of the job module on abaqus 
+# I am using static structural for this example
+StaticStructural nsteps 100
+# domain records
+# decides the type of elements we are studying 
+# determines mainly the DOFs of each node
+# using a 3d for this example 
+Domain 2dPlaneStress
+# output manager record
+# i am adding tsteps_all ( to print utput of all steps) 
+OutputManager tstep_all
+# component size record
+# not exactly confident on these 
+# i guess these are the number of various properties , bs , cross-sections we shall define 
+ndofman 2 nelem 1 ncrosssect 1 nmat 1 nbc 1 nic 1 nltf 1  
+# node records
+node 1 coords 3 0 0 0 
+node 2 coords 3 10 0 0
+# set record
+Beam2d 1 nodes 2 1 2
+# cross section record
+SimpleCS 1
+# material type record 
+
+# nonlocal barriers record
+# load , boundary records
+# initial vconditions record
+# time functions record
+# optional xfem manager and association record

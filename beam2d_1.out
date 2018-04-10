@@ -1,0 +1,98 @@
+############################################################## www.oofem.org ###
+       ####    ####   ######  ######  #    #
+     #    #  #    #  #       #       ##  ##
+    #    #  #    #  #####   #####   # ## #
+   #    #  #    #  #       #       #    #
+  #    #  #    #  #       #       #    #   OOFEM ver. 2.6
+  ####    ####   #       ######  #    #    Copyright (C) 1994-2017 Borek Patzak
+################################################################################
+
+
+Starting analysis on: Tue Apr 10 16:23:16 2018
+
+Simple Beam Structure - linear analysis
+
+==============================================================
+Output for time 1.00000000e+00 
+==============================================================
+Output for domain   1
+
+
+DofManager output:
+------------------
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+
+User time consumed by solution step 1: 0.003 [s]
+
+
+==============================================================
+Output for time 2.00000000e+00 
+==============================================================
+Output for domain   1
+
+
+DofManager output:
+------------------
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+
+User time consumed by solution step 2: 0.003 [s]
+
+
+==============================================================
+Output for time 3.00000000e+00 
+==============================================================
+Output for domain   1
+
+
+DofManager output:
+------------------
+
+
+
+
+Element output:
+---------------
+
+
+
+
+	R E A C T I O N S  O U T P U T:
+	_______________________________
+
+
+
+User time consumed by solution step 3: 0.002 [s]
+
+
+Finishing analysis on: Tue Apr 10 16:23:16 2018
+
+Real time consumed: 000h:00m:00s
+User time consumed: 000h:00m:00s
+
+
